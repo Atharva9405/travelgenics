@@ -8,6 +8,7 @@ import Contact from './routes/Contact';
 import {Route, Routes} from 'react-router-dom';
 function App() {
   return (
+    <React.StrictMode>
     <div className="App">
       <Routes>
         <Route path ="/" element={<Home/>}/>
@@ -16,6 +17,7 @@ function App() {
         <Route path ="/contact" element={<Contact/>}/>
       </Routes>
     </div>
+    </React.StrictMode>
   );
 }
 

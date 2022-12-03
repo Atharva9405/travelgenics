@@ -1,5 +1,6 @@
 .navbarItems{
     /* background-color: #fff; */
+    /* position: fixed; */
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -8,7 +9,7 @@
     width: 95%;
     height: 80px;
     border-radius:13px;
-    position: fixed;
+    position: absolute;
     top: 20px;
     left: 50%;
     transform: translate(-50%);
