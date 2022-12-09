@@ -1,13 +1,12 @@
 import React from "react";
 import "./Hero.css";
-// import ScrollToTop from "react-scroll-to-top";
+import ScrollToTop from './ScrollToTop'
 
 function Hero(props) {
   return (
     <>
-      
+    <ScrollToTop />
       <div className={props.cName}>
-      {/* <ScrollToTop smooth /> */}
         <video autoPlay loop muted id="video" >
           <source src={props.heroImg} type="video/mp4" />
         </video>
